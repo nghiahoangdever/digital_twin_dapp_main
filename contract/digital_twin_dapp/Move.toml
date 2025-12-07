@@ -1,0 +1,11 @@
+[package]
+name = "digital_twin_dapp"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota-framework", rev = "devnet" }
+
+[addresses]
+digital_twin_dapp = "0x0"
+
